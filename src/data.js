@@ -15,9 +15,8 @@ export const profile = {
   email: "kwanhwa87@gmail.com",
   socials: [
     { label: "LinkedIn", url: "https://www.linkedin.com/in/kwan-hwa-tow/" },
+    { label: "GitHub", url: "https://github.com/Neutropils" },
     { label: "Email", url: "mailto:kwanhwa87@gmail.com" },
-    // Add your GitHub when ready:
-    // { label: "GitHub", url: "https://github.com/yourusername" },
   ],
 };
 
