@@ -42,7 +42,7 @@ export const photos = {
 
 // Three headline numbers for the hero.
 export const stats = [
-  { value: "3.9", label: "GPA, Y2S1" },
+  { value: "Gold", label: "POLITE archery, 50m" },
   { value: "3", label: "Projects built" },
   { value: "5", label: "Certifications" },
 ];
@@ -56,7 +56,7 @@ export const record = [
     title: "Diploma in Information Technology (Cybersecurity)",
     org: "Nanyang Polytechnic",
     detail:
-      "Specialising in cybersecurity; Y2S1 GPA 3.9. Subcommittee member of the INFOSEC and SIT Clubs, and a competitive archer in the Archery CCA.",
+      "Specialising in cybersecurity. Subcommittee member of the INFOSEC and SIT Clubs, and a competitive archer in the Archery CCA.",
   },
   {
     kind: "work",
@@ -138,7 +138,6 @@ export const achievements = [
   { year: "2026", text: "Team bronze — recurve archery (30m), competing across NTU IAC, POLITE and TAA events." },
   { year: "2025", text: "Participated in GovTech Singapore's Digital4Good Online Safety Hackathon — built “Kopi”, an on-device AI safety buddy." },
   { year: "2025", text: "AI Fluency Framework & Foundations certificate — Anthropic." },
-  { year: "2025", text: "Y2S1 GPA 3.9 — Diploma in Information Technology (Cybersecurity), Nanyang Polytechnic." },
   { year: "2023", text: "Fortinet NSE Level 1 & 2 — Network Security Certified Associate." },
   { year: "2022", text: "Cybersecurity Essentials certification — Cisco." },
 ];
