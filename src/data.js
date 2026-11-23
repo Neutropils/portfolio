@@ -132,14 +132,29 @@ export const projects = [
   },
 ];
 
-// Achievements, awards, certifications, recognitions.
+// Grouped so wins, credentials, and participation stay distinct.
 export const achievements = [
-  { year: "2026", text: "Gold — recurve archery, 50m at the POLITE competition." },
-  { year: "2026", text: "Team bronze — recurve archery (30m), competing across NTU IAC, POLITE and TAA events." },
-  { year: "2025", text: "Participated in GovTech Singapore's Digital4Good Online Safety Hackathon — built “Kopi”, an on-device AI safety buddy." },
-  { year: "2025", text: "AI Fluency Framework & Foundations certificate — Anthropic." },
-  { year: "2023", text: "Fortinet NSE Level 1 & 2 — Network Security Certified Associate." },
-  { year: "2022", text: "Cybersecurity Essentials certification — Cisco." },
+  {
+    group: "Awards",
+    items: [
+      { year: "2026", text: "Gold — recurve archery, 50m at the POLITE competition." },
+      { year: "2026", text: "Team bronze — recurve archery (30m), competing across NTU IAC, POLITE and TAA events." },
+    ],
+  },
+  {
+    group: "Certifications",
+    items: [
+      { year: "2025", text: "AI Fluency Framework & Foundations — Anthropic." },
+      { year: "2023", text: "Fortinet NSE Level 1 & 2 — Network Security Certified Associate." },
+      { year: "2022", text: "Cybersecurity Essentials — Cisco." },
+    ],
+  },
+  {
+    group: "Participation",
+    items: [
+      { year: "2025", text: "GovTech Singapore's Digital4Good Online Safety Hackathon — built “Kopi”, an on-device AI safety buddy." },
+    ],
+  },
 ];
 
 // Skills grouped by category.

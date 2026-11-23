@@ -339,14 +339,19 @@ function Honors() {
       <SectionHead num="04" label="Honors" title="Awards & achievements" id="honors" />
       <div className="section__body">
         <Reveal className="col-main">
-          <div className="ach-list">
-            {achievements.map((a, i) => (
-              <div className="ach" key={i}>
-                <div className="ach__year">{a.year}</div>
-                <div className="ach__text">{a.text}</div>
+          {achievements.map((grp) => (
+            <div className="ach-group" key={grp.group}>
+              <div className="ach-group__name">{grp.group}</div>
+              <div className="ach-list">
+                {grp.items.map((a, i) => (
+                  <div className="ach" key={i}>
+                    <div className="ach__year">{a.year}</div>
+                    <div className="ach__text">{a.text}</div>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
           <Gallery />
         </Reveal>
       </div>
